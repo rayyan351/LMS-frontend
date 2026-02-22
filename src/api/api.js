@@ -1,4 +1,4 @@
-const API = "https://assignment-tracker-backend-7xiw.onrender.com/api";
+const API = "/api";
 
 export async function api(path, options = {}) {
   const token = localStorage.getItem("token");
